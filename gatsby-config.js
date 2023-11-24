@@ -1,3 +1,6 @@
+// Set max listeners to suppress MaxListenersExceededWarning
+process.setMaxListeners(30);
+
 const config = require('./src/config');
 
 module.exports = {
@@ -9,6 +12,7 @@ module.exports = {
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@EndaCar',
   },
+
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
@@ -20,8 +24,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Brittany Chiang',
-        short_name: 'Brittany Chiang',
+        name: 'Enda Carroll',
+        short_name: 'Enda Carroll',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
