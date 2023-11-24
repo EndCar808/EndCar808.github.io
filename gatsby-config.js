@@ -5,7 +5,7 @@ module.exports = {
     title: 'Enda Carroll',
     description:
       'Enda Carroll is an mathematician who likes to make sense of the world via the lense of mathematics.',
-    siteUrl: 'https://EndCar808.github.io/EndCar808.github.io', // No trailing slash allowed!
+    siteUrl: 'https://EndCar808.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@EndaCar',
   },
