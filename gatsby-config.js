@@ -1,5 +1,5 @@
 // Set max listeners to suppress MaxListenersExceededWarning
-process.setMaxListeners(30);
+process.setMaxListeners(50);
 
 const config = require('./src/config');
 
@@ -8,7 +8,7 @@ module.exports = {
     title: 'Enda Carroll',
     description:
       'Enda Carroll is an mathematician who likes to make sense of the world via the lense of mathematics.',
-    siteUrl: 'https://EndCar808.github.io', // No trailing slash allowed!
+    siteUrl: 'https://endacarroll.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@EndaCar',
   },
