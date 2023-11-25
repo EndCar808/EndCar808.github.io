@@ -60,7 +60,7 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Enda Carrol.</h2>;
+  const two = <h2 className="big-heading">Enda Carroll.</h2>;
   const three = (
     <h3 className="big-heading">I like to make sense of the world via the lense of mathematics.</h3>
   );
@@ -71,7 +71,9 @@ const Hero = () => {
         <a href="https://www.ucd.ie/mathstat/" target="_blank" rel="noreferrer">
           UCD
         </a>
-        .
+        . My research was on hydrodynamical turbulence and my thesis focused on modelling the
+        dyanmics Fourier phases in minimal models for turbulence in the context of understanding
+        intermittency.
         {/* I’m a software engineer specializing in building (and occasionally designing) exceptional
         digital experiences. Currently, I’m focused on building accessible, human-centered products
         at{' '}
