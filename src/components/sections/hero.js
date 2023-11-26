@@ -3,6 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+// import { email } from '@config';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -69,11 +70,13 @@ const Hero = () => {
       <p>
         I am a recently graduated applied mathematician with a PhD from{' '}
         <a href="https://www.ucd.ie/mathstat/" target="_blank" rel="noreferrer">
-          UCD
+          University College Dublin
         </a>
-        . My research was on hydrodynamical turbulence and my thesis focused on modelling the
-        dyanmics Fourier phases in minimal models for turbulence in the context of understanding
-        intermittency.
+        . I enjoy crafting mathematical solutions to complex problems, on turning abstract ideas
+        into practical innovations and building things that people enjoy!
+        {/*My research was on hydrodynamical turbulence and my thesis focused on modelling the
+        dyanmics of Fourier phases in minimal models for turbulence in the context of understanding
+        the problem of intermittency.*/}
         {/* I’m a software engineer specializing in building (and occasionally designing) exceptional
         digital experiences. Currently, I’m focused on building accessible, human-centered products
         at{' '}
@@ -87,10 +90,12 @@ const Hero = () => {
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      // href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      // href="mailto:$email"
+      href="mailto:endacar808@gmail.com"
       target="_blank"
       rel="noreferrer">
-      Check out my course!
+      Get in touch!
     </a>
   );
 

@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  // const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -134,34 +134,39 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello my name is Enda and I am class!!!</p>
-
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Hello! My name is Enda, a recent PhD graduate in applied mathematics from{' '}
+              <a href="https://www.ucd.ie/mathstat/" target="_blank" rel="noreferrer">
+                University College Dublin
+              </a>
+              . My research expertise lies in hydrodynamical turbulence and my thesis focused on
+              modelling the dynamics of Fourier phases in minimal models for turbulence.{' '}
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              My academic journey spans a spectrum of quantitative disciplines -- I also hold an MSc
+              in Data and Computational Sciences from University College Dublin and a BSc in
+              Financial Mathematics from University of Limerick.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>
+              I co-founded the{' '}
+              <a
+                href="https://sites.google.com/view/siam-ima-dublin/home"
+                target="_blank"
+                rel="noreferrer">
+                SIAM-IMA Dublin Area Student Chapter
+              </a>
+              , a student led organisation to promote and incubate collaboration in maths, stats and
+              computational research in the Dublin area.
+            </p>
+            {/* 
+            <p>Here are a few technologies I’ve been working with recently:</p>*/}
           </div>
 
-          <ul className="skills-list">
+          {/*<ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
-          </ul>
+          </ul>*/}
         </StyledText>
 
         <StyledPic>
