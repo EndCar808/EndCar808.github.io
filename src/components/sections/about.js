@@ -144,7 +144,7 @@ const About = () => {
             </p>
 
             <p>
-              My academic journey spans a spectrum of quantitative disciplines -- I also hold an MSc
+              My academic journey spans a spectrum of quantitative disciplines, I also hold an MSc
               in Data and Computational Sciences from University College Dublin and a BSc in
               Financial Mathematics from University of Limerick.
             </p>
