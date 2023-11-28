@@ -267,7 +267,7 @@ const Menu = () => {
             )}
 
             <a href="/CV_EndaCarroll.pdf" className="resume-link">
-              Resume
+              Curriculum Vitae
             </a>
           </nav>
         </StyledSidebar>

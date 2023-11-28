@@ -1,7 +1,7 @@
 ---
-date: '2016-12-21'
+date: '2022-12-21'
 title: 'Tutor'
-company: 'Maths Support Centre UCD'
+company: 'Maths Support Centre - UCD'
 location: 'Dublin, Ireland'
 range: 'September 2019 - December 2022'
 url: 'https://www.ucd.ie/msc/'

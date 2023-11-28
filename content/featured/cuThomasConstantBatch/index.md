@@ -9,4 +9,4 @@ tech:
   - CUDA
 ---
 
-Alogrithms that perform the forward and backward sweeps of the Thomas Algorithm as part of the methodology for solving batches of tridiagonal systems on a GPU using [CUDA](https://developer.nvidia.com/cuda-toolkit) in this [paper](https://arxiv.org/abs/2107.05395).
+Code that performs the forward and backward sweeps of the Thomas Algorithm as part of the methodology for solving batches of tridiagonal systems on a GPU using [CUDA](https://developer.nvidia.com/cuda-toolkit) in the following papers located [here](https://arxiv.org/abs/1909.04539) and [here](https://arxiv.org/abs/2107.05395).

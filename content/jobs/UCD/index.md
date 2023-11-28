@@ -1,7 +1,7 @@
 ---
-date: '2017-04-01'
+date: '2019-04-01'
 title: 'Teaching Assistant'
-company: 'School of Mathematics and Statistics'
+company: 'School of Mathematics and Statistics - UCD'
 location: 'University College Dublin'
 range: 'Sept 2018 - December 2022'
 url: 'https://www.ucd.ie/mathstat/'

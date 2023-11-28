@@ -165,7 +165,7 @@ const StyledTabPanel = styled.div`
 `;
 
 const Jobs = () => {
-  const data = useStaticQuery(graphql`
+  const datawork = useStaticQuery(graphql`
     query {
       jobs: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/content/jobs/" } }
@@ -187,7 +187,7 @@ const Jobs = () => {
     }
   `);
 
-  const jobsData = data.jobs.edges;
+  const jobsData = datawork.jobs.edges;
 
   const [activeTabId, setActiveTabId] = useState(0);
   const [tabFocus, setTabFocus] = useState(null);
@@ -244,7 +244,8 @@ const Jobs = () => {
 
   return (
     <StyledJobsSection id="jobs" ref={revealContainer}>
-      <h2 className="numbered-heading">Where I’ve Worked</h2>
+      <h2 className="numbered-heading">Experience</h2>
+      <h3>Where I've Worked</h3>
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
