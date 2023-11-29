@@ -14,11 +14,14 @@ Featured:
 Projects:
 
 - Begin to add repos here
-- Code for deep learning course
-- code for IIHCP project
-- .vim dotfiles
-- diffusion code in serial
+- &#9745; diffusion code in serial
 - diffusion code on GPU
+- code for paper
+- Need to add masters burgers code to repo
+-
+- Need to add 2D NS Solver code to repo
+- Need to tidy up 3D NS solver code to repo
+-
 
 Misc:
 
