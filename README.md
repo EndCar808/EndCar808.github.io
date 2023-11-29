@@ -5,7 +5,7 @@
   Personal Website - endacarroll.com
 </h1>
 <p align="center">
-  This repo contains code for my personal website <a href="https://endacarroll.com" target="_blank">endacarroll.com</a> which was built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>. This website is based on the design by <a href="https://brittanychiang.com" target="_blank">Brittany Chiang</a>. The original repo is located ![here](https://github.com/bchiang7/v4).
+  This repo contains code for my personal website <a href="https://endacarroll.com" target="_blank">endacarroll.com</a> which was built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>. This website is based on the design by <a href="https://brittanychiang.com" target="_blank">Brittany Chiang</a>. The original repo is located <a href="https://github.com/bchiang7/v4" target="_blank">here</a>
 </p>
 
 <p align="center">
