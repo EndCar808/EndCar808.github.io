@@ -1,7 +1,7 @@
 ---
-date: '1'
+date: '3'
 title: 'cuThomasConstantBatch'
-cover: './halcyon.png'
+cover: './demo.png'
 github: 'https://github.com/EndCar808/cuThomasConstantBatch'
 external: 'https://arxiv.org/abs/2107.05395'
 tech:
