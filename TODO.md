@@ -18,14 +18,15 @@ Projects:
 - diffusion code on GPU
 - code for paper
 - Need to add masters burgers code to repo
--
+- Add code the lyapunov analysis repo
+- add code to the shell models repo
 - Need to add 2D NS Solver code to repo
 - Need to tidy up 3D NS solver code to repo
--
 
 Misc:
 
 - Try adding a research section
+- Edit the README
 
 Appearance:
 
