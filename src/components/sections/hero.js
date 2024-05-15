@@ -74,6 +74,8 @@ const Hero = () => {
         </a>
         . I enjoy crafting mathematical solutions to complex problems, turning abstract ideas
         into practical innovations and building things that people enjoy!
+
+
         {/*My research was on hydrodynamical turbulence and my thesis focused on modelling the
         dyanmics of Fourier phases in minimal models for turbulence in the context of understanding
         the problem of intermittency.*/}
