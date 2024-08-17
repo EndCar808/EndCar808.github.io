@@ -10,7 +10,7 @@ package-lock.json
 
 .vscode/
 
-
-static/slides/*
-static/og.png
-static/og@2x.png
+/static/slides
+/static/slides/*
+/static/og.png
+/static/og@2x.png
