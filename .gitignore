@@ -9,3 +9,8 @@ package-lock.json
 .DS_Store
 
 .vscode/
+
+
+static/slides/*
+static/og.png
+static/og@2x.png
